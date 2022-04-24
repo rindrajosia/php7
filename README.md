@@ -9,8 +9,7 @@ montre comment les utiliser en créant des variables ou des constantes.
 
 
 *  boolean define(string nom_cte, valeur [,bool casse]) : 
-#### Créer la constante "nom_cte" et lui attribut une valeur. Le parametre "casse" indique que le nom de la constante est:
-#### insensible à la casse (TRUE) OU non (FALSE).
+#### Créer la constante "nom_cte" et lui attribut une valeur. Le parametre "casse" indique que le nom de la constante est: insensible à la casse (TRUE) OU non (FALSE).
 
 
 *  boolean defined(string nom_cte) :
