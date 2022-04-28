@@ -1,11 +1,14 @@
 <?php
 /***********************************************************
-* Donnez les valeurs de $x, $y, $z à la fin du script suivant :
+* En utilisant la fonction strlen(),
+* écrivez une boucle qui affiche chaque lettre de la
+* chaîne "PHP MySQL" sur une ligne différente
 */
-$x="PostgreSQL"; // => "PostgreSQL"
-$y="MySQL"; // => "MySQL"
-$z=&$x; // => "PostgreSQL"
-$x="PHP 5"; // => "PHP 5"
-$y=&$x; // => "PHP 5"
-echo $z; // => "PHP 5"
+$input = "PHP MySQL";
+for($i = 0; $i < strlen($input); $i++){
+  if($input[$i - 1] == " "){
+    echo ("\n");
+  }
+  echo $input[$i];
+}
 ?>
